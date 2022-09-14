@@ -3,10 +3,22 @@
 .pap
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 300px;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
+@media(max-width:500px){
+  .pap{
+ margin-right: 50px;
+  }
+
+  
+}
+
 .card
 {
   margin-left: 80px;
@@ -210,6 +222,23 @@ margin-bottom: 10px;
   color: antiquewhite;
   font-weight: bold;
   font-size: 24px;
+}
+@media(max-width:500px){
+  .papwriting{
+
+    left:85px;
+  }
+  .phop p
+{
+  color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-right: 4px;
+}
+.phop img{
+width: 30px;
+}
 }
 
 
